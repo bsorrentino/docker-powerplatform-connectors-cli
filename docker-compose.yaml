@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  paconn:
+    build: .
+    image: docker.pkg.github.com/bsorrentino/docker-powerplatform-connectors-cli/paconn:0.0.15
+    container_name: paconn
+    volumes:
+      - ./:/app
