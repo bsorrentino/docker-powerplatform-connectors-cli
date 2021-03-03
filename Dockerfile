@@ -6,4 +6,6 @@ RUN mkdir /app
 
 VOLUME /app
 
-ENTRYPOINT ["/PASopa/PASopa"]
+WORKDIR /app
+
+ENTRYPOINT ["bash"]

@@ -7,3 +7,5 @@ services:
     container_name: paconn
     volumes:
       - ./:/app
+      #- $HOME/.docker_bash_history:/root/.bash_history
+      #- ~/.bash_history:/root/.bash_history
